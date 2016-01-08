@@ -1,0 +1,96 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+.jumbotron {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+.jumbotron {
+	background-color: orange;
+	color: #ffffff;
+	padding: 50px 25px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: orange;
+    z-index: 9999;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color:orange;
+    background-color: #fff !important;
+    border-radius: 10px;
+}
+
+.container-fluid {
+	padding: 60px 50px;
+}
+
+.logo {
+	font-size: 60px;
+	color: orange;
+}
+
+.amazonlogo {
+	font-size: 130px;
+}
+
+.clothes {
+	background-color: #f6f6f6;
+}
+
+.thumbnail img {
+	width: 400px;
+	height: 340px;
+	padding: 10px;
+}
+
+.carousel img {
+	width: 500px;
+	height: 340px;
+	padding: 10px;
+	margin-left: 400px;
+	max-width: none;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+	color: #f4511e;
+}
+
+.carousel-indicators li {
+	border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+	background-color: orange;
+}
+
+.add-btn {
+	margin: 15px 0;
+	background-color: orange;
+	color: #fff;
+}
+
+.shop-cart-btn {
+	background-color: orange;
+}
+
+.item-number {
+	display: none;
+}
+
+#myModal {
+	margin-top: 150px;
+}
