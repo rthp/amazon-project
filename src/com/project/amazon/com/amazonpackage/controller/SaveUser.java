@@ -26,7 +26,8 @@ public class SaveUser extends HttpServlet {
             Class.forName("com.mysql.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/shoppingwebsite", "root", "Apple1234");
 
-            String query = "insert into user values (?,?,?)";
+            String query = "insert into user(username, userpassword, useremail) values (?,?,?)";
+            System.out.println(userName + userPassword + userEmail);
             PreparedStatement prep = con.prepareStatement(query);
 
             prep.setString(1, userName);
