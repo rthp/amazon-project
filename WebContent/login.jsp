@@ -23,22 +23,22 @@
 
 <form class="form-horizontal" style="margin-top:100px;" action="SaveUser" method="post">
 	<div class="form-group">
-    <label for="input" class="col-sm-4 control-label" name="name">Name</label>
+    <label for="input" class="col-sm-4 control-label">Name</label>
     <div class="col-sm-4">
-      <input type="input" class="form-control" id="input" placeholder="Your username">
+      <input type="input" class="form-control" id="input" name="name" placeholder="Your username">
     </div>
   </div>	
 	
   <div class="form-group">
-    <label for="inputEmail3" class="col-sm-4 control-label" name="email">Email</label>
+    <label for="inputEmail3" class="col-sm-4 control-label">Email</label>
     <div class="col-sm-4">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      <input type="email" class="form-control" name="email" id="inputEmail3" placeholder="Email">
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-4 control-label" name="password">Password</label>
+    <label for="inputPassword3" class="col-sm-4 control-label">Password</label>
     <div class="col-sm-4">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password">
     </div>
   </div>
   <div class="form-group">
