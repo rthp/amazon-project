@@ -19,44 +19,44 @@
 
 </head>
 
-<body>
-
-<form class="form-horizontal" style="margin-top:100px;" action="SaveUser" method="post">
-	<div class="form-group">
-    <label for="input" class="col-sm-4 control-label">Name</label>
-    <div class="col-sm-4">
+<body style="background-color: grey">
+<div class="container">
+<form class="form-signin" style="margin-top:100px, margin-left: 50px;" action="SaveUser" method="post">
+	<h2 class="form-signin-heading">Please sign up:</h2>
+	<div class="row">
+    <label for="inputName" class="col-sm-4 control-label">Name</label>
+    <div class="col-sm-6">
       <input type="input" class="form-control" id="input" name="name" placeholder="Your username">
     </div>
-  </div>	
-	
-  <div class="form-group">
-    <label for="inputEmail3" class="col-sm-4 control-label">Email</label>
-    <div class="col-sm-4">
-      <input type="email" class="form-control" name="email" id="inputEmail3" placeholder="Email">
     </div>
-  </div>
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-4 control-label">Password</label>
-    <div class="col-sm-4">
-      <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password">
+    <br>
+
+    <div class="row">
+    <label for="inputEmail" class="col-sm-4 control-label">Email</label>
+    <div class="col-sm-6">
+      <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Email">
     </div>
-  </div>
-  <div class="form-group">
+    </div>
+    <br>
+    <div class="row">
+    <label for="inputPassword" class="col-sm-4 control-label">Password</label>
+    <div class="col-sm-6">
+      <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password">
+    </div>
+    </div>
+    <br>
     <div class="col-sm-offset-4 col-sm-6">
       <div class="checkbox">
-        <label>
-          <input type="checkbox"> Remember me
-        </label>
+        <label></label><input type="checkbox"> Remember me </label>
       </div>
     </div>
-  </div>
-  <div class="form-group">
+    <br>
+  
     <div class="col-sm-offset-4 col-sm-6">
       <button type="submit" class="btn btn-default" style="background-color:orange;">Sign Up</button>
     </div>
-  </div>
 </form>
-
+</div>
 
 	
 </body>
